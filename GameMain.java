@@ -2,9 +2,10 @@ public class GameMain {
   public static void main(String[] args) {
     int playerHand;
     // 課題User-1 文章の表示
+    System.out.println("1:グー 2:チョキ 3:パー");
+    System.out.println("じゃんけん...");
 
     // 課題Bot-1 Playerの手の決定とその表示
-    // HandクラスのgetHandNameメソッドを使ってPlayerの手を表示する
 
     // 課題User-2 Computerの手の決定とその表示
     // ComputerクラスのdecidesComputerHandメソッドとHandクラスのgetHandNameメソッドを使ってPlayerの手を表示する
