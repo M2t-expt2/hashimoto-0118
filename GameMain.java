@@ -16,7 +16,10 @@ public class GameMain {
 
     // 課題User-2 Computerの手の決定とその表示
     // ComputerクラスのdecidesComputerHandメソッドとHandクラスのgetHandNameメソッドを使ってPlayerの手を表示する
+
     int computerHand = Computer.decidesComputerHand();
+
+
 
     // 課題Bot-2 勝敗判定とその表示
     // 課題Bot-1,User-2において実装したPlayerおよびComputerの手の表示はVictoryOrDefeatクラスに移動する
